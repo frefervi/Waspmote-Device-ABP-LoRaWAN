@@ -248,6 +248,8 @@ void measureSensors()
   pt1000Temperature = pt1000Sensor.readPT1000();
   // Read the watermark 2 sensor 
   watermark2 = wmSensor2.readWatermark();
+  //Equation...
+  
   // Read the solar radiation sensor
   valueRad = radSensor.readRadiation();
   // Conversion from voltage into umol·m-2·s-1
